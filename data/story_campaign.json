@@ -1,0 +1,399 @@
+{
+  "title": "From Rookie to Market Strategist",
+  "version": "1.0",
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "title": "Chapter 1: First Day on Dalal Street",
+      "subtitle": "The Fundamentals of Equity Markets",
+      "description": "Learn what a share of stock represents, how stock exchanges operate, and how to execute your first order inside the Bombay Stock Exchange.",
+      "objectives": [
+        {
+          "id": "c1_talk_mentor",
+          "title": "Meet Your Mentor Devendra",
+          "desc": "Speak with senior investor Devendra outside the BSE building on Dalal Street.",
+          "target_map": "dalal_street",
+          "target_npc": "devendra",
+          "target_pos": [456, 216],
+          "reward_xp": 50,
+          "reward_cash": 100.0,
+          "reward_badge": "Rookie Badge",
+          "lesson": "A share represents fractional ownership in a real operating business. Stock exchanges provide an organized, regulated marketplace where buyers and sellers can trade shares transparently."
+        },
+        {
+          "id": "c1_enter_bse",
+          "title": "Enter the BSE Trading Floor",
+          "desc": "Walk through the historic Phiroze Jeejeebhoy double doors into the Bombay Stock Exchange floor.",
+          "target_map": "interior_bse",
+          "target_door": "bse_entrance",
+          "target_pos": [432, 280],
+          "reward_xp": 50,
+          "reward_cash": 100.0,
+          "reward_badge": "",
+          "lesson": "Trading regulations mandate that orders can only be executed while physically present on an authorized exchange trading floor."
+        },
+        {
+          "id": "c1_talk_rajesh",
+          "title": "Consult Floor Broker Rajesh Kumar",
+          "desc": "Speak with Senior Broker Rajesh Kumar near the trading pit.",
+          "target_map": "interior_bse",
+          "target_npc": "rajesh_kumar",
+          "target_pos": [312, 192],
+          "reward_xp": 75,
+          "reward_cash": 150.0,
+          "reward_badge": "",
+          "lesson": "Stock price reflects the equilibrium where current supply meets demand. Company market valuation is calculated as share price multiplied by total outstanding shares."
+        },
+        {
+          "id": "c1_inspect_console",
+          "title": "Inspect the Electronic Ticker Console",
+          "desc": "Walk over to the Sensex order console in the trading pit and inspect live order books.",
+          "target_map": "interior_bse",
+          "target_object": "trading_terminal",
+          "target_pos": [312, 144],
+          "reward_xp": 75,
+          "reward_cash": 150.0,
+          "reward_badge": "",
+          "lesson": "Stock charts display price discovery over time. Green candles denote price gains during a period, while red denotes selling pressure."
+        },
+        {
+          "id": "c1_first_trade",
+          "title": "Execute Your Guided First Trade",
+          "desc": "Open the Trading Terminal [T] and buy at least 5 shares of Monsoon Global Goods (CHAI).",
+          "target_map": "interior_bse",
+          "target_symbol": "CHAI",
+          "required_action": "buy",
+          "min_shares": 5,
+          "target_pos": [312, 144],
+          "reward_xp": 150,
+          "reward_cash": 300.0,
+          "reward_badge": "First Trade Badge",
+          "lesson": "Congratulations on executing your first equity trade! You now own a fractional share of Monsoon Global Goods."
+        }
+      ]
+    },
+    {
+      "chapter_index": 2,
+      "title": "Chapter 2: Investigate the Company",
+      "subtitle": "Fundamental Analysis & Corporate Intelligence",
+      "description": "Visit the headquarters of Monsoon Global Goods on Dalal Street. Interview key department leads, inspect financial records, record clues in your journal, and build a research-backed investment thesis.",
+      "objectives": [
+        {
+          "id": "c2_enter_hq",
+          "title": "Enter Monsoon Global Goods HQ",
+          "desc": "Walk down Dalal Street to Monsoon Heritage Building and step inside.",
+          "target_map": "interior_monsoon_hq",
+          "target_door": "monsoon_hq_door",
+          "target_pos": [312, 280],
+          "reward_xp": 50,
+          "reward_cash": 100.0,
+          "reward_badge": "",
+          "lesson": "Fundamental analysis involves investigating corporate operations, supply chains, management quality, and financial balance sheets."
+        },
+        {
+          "id": "c2_interview_anand",
+          "title": "Interview Master Blender Anand (R&D)",
+          "desc": "Speak with Anand Singhania in the cupping tasting room to uncover crop yields.",
+          "target_map": "interior_monsoon_hq",
+          "target_npc": "anand_singhania",
+          "target_pos": [144, 144],
+          "reward_xp": 100,
+          "reward_cash": 150.0,
+          "reward_clue": "chai_harvest_record",
+          "reward_badge": "",
+          "lesson": "Bumper harvest yields lower cost of goods sold (COGS), expanding operating gross profit margins."
+        },
+        {
+          "id": "c2_interview_meera",
+          "title": "Interview Supply Chain Director Meera",
+          "desc": "Speak with Meera Sen in the logistics department to inspect freight contracts.",
+          "target_map": "interior_monsoon_hq",
+          "target_npc": "meera_sen",
+          "target_pos": [480, 144],
+          "reward_xp": 100,
+          "reward_cash": 150.0,
+          "reward_clue": "chai_shipping_reroute",
+          "reward_badge": "",
+          "lesson": "Securing multi-year fixed maritime charter contracts hedges a company against spot freight inflation shocks."
+        },
+        {
+          "id": "c2_interview_rajiv",
+          "title": "Interview Commodities Buyer Rajiv",
+          "desc": "Speak with Rajiv Patel at the procurement desk regarding international expansion.",
+          "target_map": "interior_monsoon_hq",
+          "target_npc": "rajiv_patel",
+          "target_pos": [312, 192],
+          "reward_xp": 100,
+          "reward_cash": 150.0,
+          "reward_clue": "chai_se_asia_retail",
+          "reward_badge": "",
+          "lesson": "Expanding supermarket distribution drives top-line revenue volume growth in high-growth emerging economies."
+        },
+        {
+          "id": "c2_inspect_ledger",
+          "title": "Inspect Financial Report & Product Display",
+          "desc": "Examine the corporate ledger book on the executive boardroom desk.",
+          "target_map": "interior_monsoon_hq",
+          "target_object": "monsoon_ledger",
+          "target_pos": [312, 120],
+          "reward_xp": 100,
+          "reward_cash": 200.0,
+          "reward_badge": "",
+          "lesson": "Audited balance sheets confirm cash reserves, debt leverage ratios, and return on invested capital (ROIC)."
+        },
+        {
+          "id": "c2_synthesize_thesis",
+          "title": "Formulate Thesis in Journal [J]",
+          "desc": "Open your Clue Journal [J], synthesize high conviction on CHAI, and trade on the BSE floor.",
+          "target_map": "interior_bse",
+          "required_action": "open_journal",
+          "target_pos": [312, 144],
+          "reward_xp": 200,
+          "reward_cash": 400.0,
+          "reward_badge": "Equity Analyst Badge",
+          "lesson": "Combining R&D data, supply resilience, and audited financial statements creates an institutional-grade investment thesis."
+        }
+      ]
+    },
+    {
+      "chapter_index": 3,
+      "title": "Chapter 3: The News Shock",
+      "subtitle": "Market Events, Sentiment & Expectations",
+      "description": "A breaking news wire impacts market sentiment. Investigate the newsroom, distinguish verified facts from rumor, observe sector reactions, and analyze how market expectations drive price response.",
+      "objectives": [
+        {
+          "id": "c3_read_wire",
+          "title": "Read the Breaking News Wire",
+          "desc": "Check your news feed [N] to review the breaking sector shock.",
+          "target_map": "dalal_street",
+          "required_action": "open_news",
+          "target_pos": [312, 144],
+          "reward_xp": 75,
+          "reward_cash": 100.0,
+          "reward_badge": "",
+          "lesson": "Breaking headlines trigger immediate algorithmic price adjustments. However, emotional first reactions often overshoot fair value."
+        },
+        {
+          "id": "c3_visit_journalist",
+          "title": "Visit Reporter Priya Sharma",
+          "desc": "Speak with financial investigative reporter Priya Sharma on Dalal Street.",
+          "target_map": "dalal_street",
+          "target_npc": "priya_sharma",
+          "target_pos": [312, 312],
+          "reward_xp": 125,
+          "reward_cash": 200.0,
+          "reward_badge": "",
+          "lesson": "Smart investors separate confirmed factual operational changes from speculative rumors and paid promotional spin."
+        },
+        {
+          "id": "c3_rebalance_trade",
+          "title": "Execute Strategic Portfolio Rebalance",
+          "desc": "Enter BSE and adjust your portfolio positioning based on verified news intelligence.",
+          "target_map": "interior_bse",
+          "required_action": "trade_any",
+          "target_pos": [312, 144],
+          "reward_xp": 150,
+          "reward_cash": 300.0,
+          "reward_badge": "",
+          "lesson": "Rebalancing aligns risk exposure to changing market realities rather than panic selling at local market bottoms."
+        },
+        {
+          "id": "c3_inspect_breakdown",
+          "title": "Inspect Return Breakdown Panel",
+          "desc": "Open the Stock Return Breakdown [B] to inspect news factor N(i,t) and decay.",
+          "target_map": "interior_bse",
+          "required_action": "view_breakdown",
+          "target_pos": [312, 144],
+          "reward_xp": 200,
+          "reward_cash": 350.0,
+          "reward_badge": "News Analyst Badge",
+          "lesson": "News effects decay over time as information is fully absorbed into equity valuations."
+        }
+      ]
+    },
+    {
+      "chapter_index": 4,
+      "title": "Chapter 4: Politics and Markets",
+      "subtitle": "Fiscal Policy, Legislation & Macroeconomics",
+      "description": "Enter the Parliament of India building. Study legislative bills, consult senior economic advisers on policy transmission, and learn why positive news can cause a sell-off if already anticipated.",
+      "objectives": [
+        {
+          "id": "c4_enter_parliament",
+          "title": "Enter the Parliament Building",
+          "desc": "Walk into the Parliament of India visitor and committee pavilion on Dalal Street.",
+          "target_map": "interior_parliament",
+          "target_door": "parliament_door",
+          "target_pos": [312, 280],
+          "reward_xp": 75,
+          "reward_cash": 150.0,
+          "reward_badge": "",
+          "lesson": "Fiscal policy, national budgets, and tax legislation directly shape industry profitability."
+        },
+        {
+          "id": "c4_read_bill",
+          "title": "Inspect Clean Energy Legislative Dossier",
+          "desc": "Examine the green energy infrastructure bill on the parliamentary committee table.",
+          "target_map": "interior_parliament",
+          "target_object": "parliament_bill",
+          "target_pos": [312, 120],
+          "reward_xp": 125,
+          "reward_cash": 250.0,
+          "reward_clue": "aura_solar_subsidies",
+          "reward_badge": "",
+          "lesson": "Production-Linked Incentives (PLI) provide direct cash grants that drop straight to pre-tax earnings."
+        },
+        {
+          "id": "c4_consult_adviser",
+          "title": "Consult Chief Adviser Dr. Subramanian",
+          "desc": "Speak with senior economic adviser Dr. Subramanian about market pricing and policy anticipation.",
+          "target_map": "interior_parliament",
+          "target_npc": "dr_subramanian",
+          "target_pos": [216, 168],
+          "reward_xp": 150,
+          "reward_cash": 300.0,
+          "reward_badge": "",
+          "lesson": "'Buy the rumor, sell the news' happens when markets price in an announcement in advance. If the bill offers less than expected, stocks fall."
+        },
+        {
+          "id": "c4_trade_aura",
+          "title": "Execute Policy-Informed Trade in AURA",
+          "desc": "Return to BSE floor and purchase Aurum Clean Energy (AURA) based on parliamentary policy.",
+          "target_map": "interior_bse",
+          "target_symbol": "AURA",
+          "required_action": "buy",
+          "min_shares": 5,
+          "target_pos": [312, 144],
+          "reward_xp": 200,
+          "reward_cash": 400.0,
+          "reward_badge": "Policy Strategist Badge",
+          "lesson": "Government policy changes alter fundamental cost structures and grant long-term competitive moats."
+        }
+      ]
+    },
+    {
+      "chapter_index": 5,
+      "title": "Chapter 5: The Volatility Challenge",
+      "subtitle": "Statistics, Risk Management & Diversification",
+      "description": "Enter the Financial Research Library. Master standard deviation, compare high-beta tech with low-volatility consumer staples, practice position sizing, and construct a diversified portfolio.",
+      "objectives": [
+        {
+          "id": "c5_enter_library",
+          "title": "Enter Financial Research Library",
+          "desc": "Step inside the historic research library on Dalal Street.",
+          "target_map": "interior_library",
+          "target_door": "library_door",
+          "target_pos": [312, 280],
+          "reward_xp": 75,
+          "reward_cash": 150.0,
+          "reward_badge": "",
+          "lesson": "Historical volatility measures the dispersion of returns around their mean over a rolling historical sample window."
+        },
+        {
+          "id": "c5_talk_eleanor",
+          "title": "Consult Library Director Eleanor Vance",
+          "desc": "Speak with Chief Researcher Eleanor Vance regarding sample standard deviation and drawdown math.",
+          "target_map": "interior_library",
+          "target_npc": "eleanor_vance",
+          "target_pos": [312, 144],
+          "reward_xp": 125,
+          "reward_cash": 250.0,
+          "reward_badge": "",
+          "lesson": "Sample standard deviation sigma = sqrt(sum((r - mean)^2) / (n - 1)). High volatility means wider swings in both directions."
+        },
+        {
+          "id": "c5_inspect_archives",
+          "title": "Inspect Quantitative Data Terminal",
+          "desc": "Examine the archival trading terminal in the study carrel to review volatility distributions.",
+          "target_map": "interior_library",
+          "target_object": "library_archives",
+          "target_pos": [456, 120],
+          "reward_xp": 125,
+          "reward_cash": 250.0,
+          "reward_badge": "",
+          "lesson": "A streak of positive returns does not eliminate underlying volatility. Past performance does not guarantee future results."
+        },
+        {
+          "id": "c5_diversify_portfolio",
+          "title": "Build a 3-Sector Diversified Portfolio",
+          "desc": "Execute trades to hold active positions in at least 3 distinct market sectors simultaneously.",
+          "target_map": "interior_bse",
+          "required_action": "diversify_3_sectors",
+          "target_pos": [312, 144],
+          "reward_xp": 250,
+          "reward_cash": 500.0,
+          "reward_badge": "Risk Manager Badge",
+          "lesson": "Diversification across uncorrelated asset classes reduces overall portfolio variance without sacrificing expected return."
+        }
+      ]
+    },
+    {
+      "chapter_index": 6,
+      "title": "Chapter 6: The Global Strategist",
+      "subtitle": "International Markets & Master Investment Thesis",
+      "description": "Unlock Wall Street NYSE, travel to New York, explore Apex Global Tower and Titan Banking Arcade, formulate your master investment thesis, and achieve the rank of Financial Titan.",
+      "objectives": [
+        {
+          "id": "c6_unlock_nyse",
+          "title": "Unlock Wall Street & Travel to New York",
+          "desc": "Use the Global Travel Portal [M] to travel to Wall Street, New York.",
+          "target_map": "wall_street",
+          "required_action": "travel_wall_street",
+          "target_pos": [312, 200],
+          "reward_xp": 100,
+          "reward_cash": 300.0,
+          "reward_badge": "Global Passport",
+          "lesson": "Global arbitrage and cross-border portfolio allocation expand your opportunity set across differing economic cycles."
+        },
+        {
+          "id": "c6_enter_nyse",
+          "title": "Enter the New York Stock Exchange Floor",
+          "desc": "Walk up the neoclassical granite steps and enter the NYSE trading floor.",
+          "target_map": "interior_nyse",
+          "target_door": "nyse_entrance",
+          "target_pos": [312, 280],
+          "reward_xp": 100,
+          "reward_cash": 300.0,
+          "reward_badge": "",
+          "lesson": "The NYSE trading floor operates designated market maker (DMM) posts to maintain orderly bid-ask spreads."
+        },
+        {
+          "id": "c6_interview_apex_ceo",
+          "title": "Visit Apex Tower & Interview CEO Vance",
+          "desc": "Enter Apex Global Tower and interview CEO Sterling Vance in the executive suite.",
+          "target_map": "interior_apex_hq",
+          "target_npc": "sterling_vance",
+          "target_pos": [312, 120],
+          "reward_xp": 150,
+          "reward_cash": 400.0,
+          "reward_clue": "apex_ceo_vision",
+          "reward_badge": "",
+          "lesson": "Visionary executive leadership must be verified against capital expenditure burn rates and unit economic reality."
+        },
+        {
+          "id": "c6_submit_master_thesis",
+          "title": "Submit Master Investment Thesis",
+          "desc": "Open the Investment Thesis Screen [J] and record your multi-factor institutional allocation.",
+          "target_map": "interior_nyse",
+          "required_action": "submit_master_thesis",
+          "target_pos": [312, 144],
+          "reward_xp": 300,
+          "reward_cash": 1000.0,
+          "reward_badge": "Master Strategist Badge",
+          "lesson": "A rigorous thesis accounts for fundamentals, macro policy, event risks, volatility sizing, and margin of safety."
+        },
+        {
+          "id": "c6_victory_trade",
+          "title": "Execute Master Global Allocation",
+          "desc": "Execute your master trade on the NYSE trading floor to reach Financial Titan status.",
+          "target_map": "interior_nyse",
+          "required_action": "trade_any",
+          "target_pos": [312, 144],
+          "reward_xp": 500,
+          "reward_cash": 2500.0,
+          "reward_badge": "Financial Titan",
+          "lesson": "You have completed the MarketQuest Campaign! You have mastered financial fundamentals, news analysis, policy forecasting, and risk management. Post-campaign free roam unlocked across all global capitals!"
+        }
+      ]
+    }
+  ]
+}
