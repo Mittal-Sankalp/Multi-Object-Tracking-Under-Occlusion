@@ -27,22 +27,26 @@ A retail store requires a computer vision pipeline to count and track customers 
 
 ## Setup & Installation
 
-1. **Install Python:** 
+1. **Clone the Repository:**
+   ```bash
+   git clone "https://github.com/Mittal-Sankalp/Multi-Object-Tracking-Under-Occlusion"
+   cd Multi-Object-Tracking-Under-Occlusion
+   ```
+
+2. **Install Python:** 
    Ensure Python (version 3.8 or higher) is installed on your operating system. You can download it from [python.org](https://www.python.org/).
-2.**Install Dependencies:**
+   
+3. **Install Dependencies:**
    Install all required libraries (OpenCV, Ultralytics YOLO, Pandas, and Openpyxl) by running:
    ```bash
    py -m pip install opencv-python ultralytics pandas openpyxl
-3. **Add Sample Video:**
+   ```
+4. **Add Sample Video:**
    
    * Using the default video: A sample video is already included in this repository.
 
    * Using your own custom video: Delete the given sample first. If your video has a different name, simply drop it into the root folder and name it `store.mp4`.
      
-5. **Clone the Repository:**
-   ```bash
-   git clone [https://github.com/Mittal-Sankalp/AWS-Project-Multi-Object-Tracking-Under-Occlusion.git](https://github.com/Mittal-Sankalp/AWS-Project-Multi-Object-Tracking-Under-Occlusion.git)
-   cd your-repo-name
 ## Instructions for Re-Running Evaluation
 Because this pipeline focuses on Multi-Object Tracking (MOT), evaluation measures identity consistency and tracking accuracy rather than just per-frame detection. 
 
